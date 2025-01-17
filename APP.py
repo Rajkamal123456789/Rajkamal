@@ -7,7 +7,7 @@ st.image("gc.ico", width=200)
 
 def front_end(): 
     
-    st.html("<html><body><center><h1><font color=""Gray"">Gemini<h4><font color=""blue""> The Digital Sibling </center></body></html>")
+    st.html("<html><body><center><h1><font color=""Gray"">Gemini<h4><font color=""blue""> tHe Digital Sibling </center></body></html>")
     text=st.chat_input("Ask Gemini")
     return text
 
