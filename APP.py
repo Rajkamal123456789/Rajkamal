@@ -32,4 +32,3 @@ def Gemini_integration(text):
 text=front_end()
 result=Gemini_integration(text)
 
-
