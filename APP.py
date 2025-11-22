@@ -19,7 +19,7 @@ def Gemini_integration(text):
             if text==None:
                 pass 
             else:
-                api_key = 'AIzaSyC4ni8FGnv7cNCHt5o74QWhilO6larwi_c' # API key
+                api_key = '' # API key
                 genai.configure(api_key=api_key)
                 model=genai.GenerativeModel('gemini-pro')
                 chat=model.start_chat(history=[])
