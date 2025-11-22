@@ -2,8 +2,7 @@ import streamlit as st
 import google.generativeai as genai 
 
 
-st.set_page_config(page_title="Gemini Clone", page_icon="gc.ico")
-st.image("gc.ico", width=200)
+st.set_page_config(page_title="Gemini Clone")
 
 def front_end(): 
     
@@ -30,10 +29,6 @@ def Gemini_integration(text):
                 return result
 
             
-        
-
-
-    
 text=front_end()
 result=Gemini_integration(text)
 
